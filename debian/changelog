@@ -1,0 +1,557 @@
+duicontrolpanel-languageapplet (0.11.3+0m7) harmattan; urgency=low
+
+  [ Viktor Nagy ]
+  * Fixes: NB#290436 - [TASK] Improve language applet opening time
+
+  [ David Kedves ]
+  * Applying Marko Saukko's patch
+
+  [ Peter Csaszar ]
+  * Fixes: NB#287320 - Search field is getting closed after clearing all typed
+    content
+
+ -- David Kedves <dkedves@blumsoft.eu>  Tue, 07 Feb 2012 10:31:16 +0100
+
+duicontrolpanel-languageapplet (0.11.3) unstable; urgency=low
+
+  * Fixes: NB#287946 - Arabic: the Numerals used to show time and date
+    are not localizedafter SSU from PR1.0 to PR1.1.1.
+
+ -- Sandor Pinter <sandor.pinter@blumsoft.eu>  Tue, 25 Oct 2011 10:59:15 +0200
+
+duicontrolpanel-languageapplet (0.11.2) unstable; urgency=low
+
+  * Fixes: NB#280629 - Matching substring is not highlighted at live filtering in language settings
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Wed, 19 Oct 2011 16:41:35 +0200
+
+duicontrolpanel-languageapplet (0.11.1) unstable; urgency=low
+
+  * Fixes lost selection in mstartup, a regression introduced by 0.11.0
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Fri, 30 Sep 2011 08:18:45 +0200
+
+duicontrolpanel-languageapplet (0.11.0) unstable; urgency=low
+
+  [ Viktor Nagy ]
+  * Fixes: NB#282245 - Settings; Language doesn't change when stand-by screen interferes.
+
+  [ Sandor Pinter ]
+  * Fixes: NB#283199 - Order of languages in the list are not as per the
+    spec.
+
+  [ Viktor Nagy ]
+  * Fixes: NB#279282 - No qtn_lang_usb_reboot_fail banner is shown when changing language while connected as mass storage 
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Tue, 27 Sep 2011 11:35:57 +0200
+
+duicontrolpanel-languageapplet (0.10.1) unstable; urgency=low
+
+  * PR1.1.1 version with Arabic number format enabled
+  * Fixes: NB#280840 - Number format: Hindi digit mode can not be selected from number format.
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Wed, 07 Sep 2011 11:19:55 +0200
+
+duicontrolpanel-languageapplet (0.9.2.1) unstable; urgency=low
+
+  * Fixes: NB#280426 - [TASK] Please disable Arabic support from PR1.1 branch
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Thu, 01 Sep 2011 10:43:14 +0200
+
+duicontrolpanel-languageapplet (0.9.0) unstable; urgency=low
+
+  * Fixes: NB#266594 - *.dpkg-dist files visible in device language settings after ssu
+  * Fixes: NB#235804 - [FEA] Language selection view to Sheet
+  * Fixes: NB#231764 - Language; Improvement, The translation are not
+    professional.
+  * Fixes: NB#257346 - Live Search; Only the first word can be searched on languages
+    list
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Thu, 21 Jul 2011 18:22:28 +0200
+
+duicontrolpanel-languageapplet (0.8.34) unstable; urgency=low
+
+  * Fixes: NB#248338 - Setting; Time and Language; Language;
+    Alphabetical Sorting doesn't work properly
+  * Fixes: NB#248975 - Language settings; Sorting of languages in Select
+    language dialog is inconsistent and depends on selected language;
+
+ -- Sandor Pinter <sandor.pinter@blumsoft.eu>  Tue, 28 Jun 2011 13:31:23 +0200
+
+duicontrolpanel-languageapplet (0.8.33) unstable; urgency=low
+
+  * Fixes: NB#264247 - language view in startup wizard needs to load faster 
+  * Reverted fix for NB#254751
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Tue, 14 Jun 2011 11:21:56 +0200
+
+duicontrolpanel-languageapplet (0.8.32) unstable; urgency=low
+
+  * Reverted fix: NB#254751 - Input; Inconsistent Zhuyin symbol with VKB and input field. 
+
+  [ Sandor Pinter ]
+  * Fixes: NB#248338 - Setting; Time and Language; Language;
+    Alphabetical Sorting doesn't work properly
+  * Fixes: NB#248975 - Language settings; Sorting of languages in Select
+    language dialog is inconsistent and depends on selected language;
+  * Fixes: NB#213540 - [TASK] Selecting Norwegian as language does not
+    automatically set region/locale
+
+ -- Sandor Pinter <sandor.pinter@blumsoft.eu>  Mon, 27 Jun 2011 11:10:32 +0200
+
+duicontrolpanel-languageapplet (0.8.31) unstable; urgency=low
+
+  * Fixes: NB#252499 - Changing language while in USB Mass Storage mode prevents reboot, resulting in mix of two different languages
+  * Fixes: NB#252991 - English UK layout remains the active after setting other language in the startup wizard 
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Thu, 12 May 2011 10:13:57 +0200
+
+duicontrolpanel-languageapplet (0.8.30) unstable; urgency=low
+
+  [ Viktor Nagy ]
+  * Fixes: NB#229756 - [FEA] HKSCS-2004 HongKong specific font set - A360 238304
+
+  [ Robert Manner ]
+  * Fixes: NB#246686 - Language setting header style update
+
+ -- Robert Manner <robert.manner@blumsoft.eu>  Mon, 09 May 2011 16:00:10 +0200
+
+duicontrolpanel-languageapplet (0.8.29) unstable; urgency=low
+
+  * Fixes: NB#250103 - In SUW, language view title is not getting
+    translated according to the language change
+
+ -- Sandor Pinter <sandor.pinter@blumsoft.eu>  Tue, 03 May 2011 15:39:33 +0200
+
+duicontrolpanel-languageapplet (0.8.28) unstable; urgency=low
+
+  * Fixes: NB#246151 - [TASK] Dashboard is red for elongated period. Should be green! 
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Wed, 13 Apr 2011 17:31:34 +0200
+
+duicontrolpanel-languageapplet (0.8.27) unstable; urgency=low
+
+  * Fixes: NB#239124 - After selecting Finnish language, British date
+    and time still shown in the language select screen
+
+ -- Sandor Pinter <sandor.pinter@blumsoft.eu>  Mon, 28 Mar 2011 14:48:33 +0200
+
+duicontrolpanel-languageapplet (0.8.26) unstable; urgency=low
+
+  * Fixes: NB#230427 - Language settings plugin needs to be moved to Time & language category
+  * Fixes: NB#231571 - COREWEB: /usr/bin/mstartup 'DisplayWidget::changeLanguageAndClose DisplayWidget::qt_metacall QMetaObject::metacall QMetaObject::activate QSingleShotTimer::timerEvent' 
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Fri, 04 Mar 2011 16:14:33 +0100
+
+duicontrolpanel-languageapplet (0.8.25) unstable; urgency=low
+
+  * Fixes: NB#225922 - Language list view with the "Changing device language" query dialog is shown twice in a scenario. 
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Tue, 22 Feb 2011 16:48:50 +0100
+
+duicontrolpanel-languageapplet (0.8.24) unstable; urgency=low
+
+  * Spinner for language change in startup wizard
+  * Avoid reboot if /tmp/LANG_NO_REBOOT exists (for testing purposes)
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Wed, 16 Feb 2011 13:35:57 +0100
+
+duicontrolpanel-languageapplet (0.8.23) unstable; urgency=low
+
+  * Fixes: NB#217099 - Language applet main view opening is above the target
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Thu, 03 Feb 2011 10:05:36 +0100
+
+duicontrolpanel-languageapplet (0.8.22) unstable; urgency=low
+
+  * Live filtering
+  * Regressions are fixed 
+
+ -- Sandor Pinter <sandor.pinter@blumsoft.eu>  Wed, 19 Jan 2011 15:46:05 +0100
+
+duicontrolpanel-languageapplet (0.8.21) unstable; urgency=low
+
+  * Fix filtering crash and proper language selection
+
+ -- Sandor Pinter <sandor.pinter@blumsoft.eu>  Thu, 13 Jan 2011 09:55:51 +0100
+
+duicontrolpanel-languageapplet (0.8.20) unstable; urgency=low
+
+  * fix compilation bug
+
+ -- Sandor Pinter <sandor.pinter@blumsoft.eu>  Tue, 11 Jan 2011 15:41:25 +0100
+
+duicontrolpanel-languageapplet (0.8.19) unstable; urgency=low
+
+  * live filtering works
+
+ -- Sandor Pinter <sandor.pinter@blumsoft.eu>  Tue, 11 Jan 2011 10:56:19 +0100
+
+duicontrolpanel-languageapplet (0.8.18) unstable; urgency=low
+
+  * Fixes: NB#189018 - No keyboard shortcuts for the language dialog
+
+ -- Sandor Pinter <sandor.pinter@blumsoft.eu>  Mon, 10 Jan 2011 12:13:49 +0100
+
+duicontrolpanel-languageapplet (0.8.17) unstable; urgency=low
+
+  * Fixes: NB#216427 - Current language is not highlighted in the
+    language list in the given scenario.
+
+ -- Sandor Pinter <sandor.pinter@blumsoft.eu>  Thu, 06 Jan 2011 14:48:53 +0100
+
+duicontrolpanel-languageapplet (0.8.16) unstable; urgency=low
+
+  * Fixes: NB#188907 - [+UIHITLIST] Automatic regional format switch is not happening when the device language is changed.
+    Fixes: NB#208691 - When changing language settings for the first time, region is not set automatically
+  * Changes VKB layout if applet is invoked from startup wizard
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Tue, 07 Dec 2010 17:03:22 +0100
+
+duicontrolpanel-languageapplet (0.8.15) unstable; urgency=low
+
+  * Store locale id in /var/lib/duicontrolpanel-displaylanguageapplet/lang
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Thu, 02 Dec 2010 12:23:09 +0100
+
+duicontrolpanel-languageapplet (0.8.14) unstable; urgency=low
+
+  [ Sandor Pinter ]
+  * Fixes: NB#206406
+
+  [ Viktor Nagy ]
+  * Fixes: NB#207379 - duicontrolpanel-languageapplet: package built without compiler optimizations 
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Fri, 26 Nov 2010 15:44:07 +0200
+
+duicontrolpanel-languageapplet (0.8.13) unstable; urgency=low
+
+  * Automatic region change if region is set as default
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Mon, 22 Nov 2010 15:59:09 +0100
+
+duicontrolpanel-languageapplet (0.8.12) unstable; urgency=low
+
+  * Using inverted theme
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Thu, 11 Nov 2010 17:59:10 +0100
+
+duicontrolpanel-languageapplet (0.8.11) unstable; urgency=low
+
+  * Fixes: NB#196596 - Device do not automatically reboot after changing the UI language
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Thu, 04 Nov 2010 18:35:18 +0100
+
+duicontrolpanel-languageapplet (0.8.10) unstable; urgency=low
+
+  * New controlpanel category for language applet
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Wed, 03 Nov 2010 09:53:30 +0100
+
+duicontrolpanel-languageapplet (0.8.9.1) unstable; urgency=low
+
+  * Removed Fixes: line from 0.8.7, as reboot code was removed from 
+    later versions.
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Fri, 29 Oct 2010 11:28:33 +0200
+
+duicontrolpanel-languageapplet (0.8.9) unstable; urgency=low
+
+  * Fixed visibility issue of the highlighted language item.
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Wed, 27 Oct 2010 10:43:45 +0200
+
+duicontrolpanel-languageapplet (0.8.8) unstable; urgency=low
+
+  * Get the list of available languages from /etc/meego-supported-languages
+  * Removed the implementation of the reboot after language change
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Thu, 21 Oct 2010 18:51:00 +0200
+
+duicontrolpanel-languageapplet (0.8.7) unstable; urgency=low
+
+  * Uses uppercased MLocale::languageEndonym() for language names
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Tue, 19 Oct 2010 19:13:15 +0200
+
+duicontrolpanel-languageapplet (0.8.6) unstable; urgency=low
+
+  * Added licence headers
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Thu, 02 Sep 2010 16:13:03 +0200
+
+duicontrolpanel-languageapplet (0.8.5) unstable; urgency=low
+
+  [ Robert Manner ]
+  * Fixes: NB#180875 - Engineering English shows up when Norwegian language 
+    is selected
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Thu, 26 Aug 2010 11:00:26 +0200
+
+duicontrolpanel-languageapplet (0.8.4) unstable; urgency=low
+
+  [ Robert Manner ]
+  * Fixes: NB#175435 - Presenting order of the languages in Language
+    setting view is incorrect
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Tue, 03 Aug 2010 12:25:24 +0200
+
+duicontrolpanel-languageapplet (0.8.3) unstable; urgency=low
+
+  * Re-added dummy keyboardlanguage packages to make integration happy
+  * Workaround for language list flickering
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Fri, 02 Jul 2010 16:41:16 +0200
+
+duicontrolpanel-languageapplet (0.8.2) unstable; urgency=low
+
+  * Removes keyboard language applet from the repository since it is not
+    working anymore, input languages applet will provide its
+    functionality in future, but that comes from another team
+  * Fixes: NB#175243 - Language selection not rendering correctly
+  * Fixes: NB#173970 - Language setting view not implemented according to UI
+    spec
+  * List of languages comes from a text file without considering if
+    translation catalog exists for them
+
+ -- Robert Manner <robert.manner@blumsoft.eu>  Thu, 24 Jun 2010 12:12:07 +0200
+
+duicontrolpanel-languageapplet (0.8.1) unstable; urgency=low
+
+  [ Peter Csaszar ]
+  * added title() method to DcpWidget
+
+ -- Peter Csaszar <peter.csaszar@blumsoft.eu>  Mon, 14 Jun 2010 14:47:45 +0200
+
+duicontrolpanel-languageapplet (0.8.0) unstable; urgency=low
+
+  [ Robert Manner ]
+  * Fixes: translation ids for display language applet
+
+  [ Viktor Nagy ]
+  * Integration with matti tests
+
+ -- Viktor Nagy <viktor.nagy@blumsoft.eu>  Fri, 04 Jun 2010 14:07:19 +0200
+
+duicontrolpanel-languageapplet (0.7.6.1) unstable; urgency=low
+
+  * Fixes: NB#167615 - UK English is not in the language selection list
+
+ -- Robert Manner <robert.manner@blumsoft.eu>  Fri, 07 May 2010 16:36:40 +0200
+
+duicontrolpanel-languageapplet (0.7.6) unstable; urgency=low
+
+  * Display language page goes back if an item gets selected
+
+ -- Robert Manner <robert.manner@blumsoft.eu>  Thu, 06 May 2010 10:56:53 +0200
+
+duicontrolpanel-languageapplet (0.7.5-1) unstable; urgency=low
+
+  * The feature language detection from cellular network has been removed from
+    the applet as meegostartup will contain it from now on
+  * Display lang applet scrolls to the selected item when page gets
+    openned
+  * Disables two column mode according to ui specs
+
+ -- Robert Manner <robert.manner@blumsoft.eu>  Tue, 04 May 2010 17:21:28 +0200
+
+duicontrolpanel-languageapplet (0.7.5) unstable; urgency=low
+
+  * compatible with meegotouch, but not yet uses the "meego" vkb, since it is
+    not available
+
+ -- Robert Manner <robert.manner@blumsoft.eu>  Wed, 14 Apr 2010 16:25:56 +0200
+
+duicontrolpanel-languageapplet (0.7.4) unstable; urgency=low
+
+  * corrected dependency
+
+ -- Robert Manner <robert.manner@blumsoft.eu>  Wed, 07 Apr 2010 11:09:06 +0200
+
+duicontrolpanel-languageapplet (0.7.3) unstable; urgency=low
+
+  * Fixes: regressions with orientation change
+  * Fixes that the country code was stored separately
+
+ -- Robert Manner <robert.manner@blumsoft.eu>  Fri, 26 Mar 2010 14:54:18 +0100
+
+duicontrolpanel-languageapplet (0.7.2) unstable; urgency=low
+
+  * fake localization to demonstrate on the fly translation change
+  * unittests
+
+ -- Robert Manner <robert.manner@blumsoft.eu>  Wed, 10 Mar 2010 13:08:36 +0100
+
+duicontrolpanel-languageapplet (0.7.1) unstable; urgency=low
+
+  * Fixes NB#156766 - Display language brief doesnt show the actual
+    language
+  * Fixes NB#156798 - Invalid region-format when language changes
+
+ -- Robert Manner <robert.manner@blumsoft.eu>  Wed, 17 Feb 2010 17:14:59 +0100
+
+duicontrolpanel-languageapplet (0.7.0) unstable; urgency=low
+
+  * unit tests
+  * Fixes: NB#155457 - Chinese is missing from language settings
+  * Implements setting the country code
+  * Visual changes: Uses duilist instead of own container
+
+ -- Robert Manner <robert.manner@blumsoft.eu>  Mon, 15 Feb 2010 14:46:49 +0100
+
+duicontrolpanel-languageapplet (0.6.4) unstable; urgency=low
+
+  * Compiles with dui 0.18
+  * Some design fixes
+
+ -- Robert Manner <robert.manner@blumsoft.eu>  Tue, 26 Jan 2010 09:59:33 +0100
+
+duicontrolpanel-languageapplet (0.6.3) unstable; urgency=low
+
+  [ Viktor Nagy ]
+  * Fixes: NB#149664 dcplanguageselectcontainer.cpp code cleanup needed
+
+  [ Robert Manner ]
+  * Fixes: user can scroll without selecting an item
+  * Uses fixed list of display languages
+  * Engineering english package for qtTrId
+
+ -- Robert Manner <robert.manner@blumsoft.eu>  Fri, 15 Jan 2010 14:15:35 +0100
+
+duicontrolpanel-languageapplet (0.6.2) unstable; urgency=low
+
+  * Implements: Languageapplets are on a page instead of a dialog
+
+ -- Robert Manner <robert.manner@blumsoft.eu>  Mon, 11 Jan 2010 13:52:42 +0100
+
+duicontrolpanel-languageapplet (0.6.1) unstable; urgency=low
+
+  * no change
+
+ -- Robert Manner <robert.manner@blumsoft.eu>  Thu, 07 Jan 2010 15:23:53 +0100
+
+duicontrolpanel-languageapplet (0.6.0) unstable; urgency=low
+
+  * Implements: notify duistartup that display language is set by user
+
+ -- Manner Robert <robert.manner@blumsoft.eu>  Mon, 14 Dec 2009 16:28:38 +0100
+
+duicontrolpanel-languageapplet (0.5.9) unstable; urgency=low
+
+  * fixes: dependencies
+
+ -- Manner Robert <robert.manner@blumsoft.eu>  Fri, 04 Dec 2009 12:06:30 +0100
+
+duicontrolpanel-languageapplet (0.5.8) unstable; urgency=low
+
+  * bumping up: add minimum libdui0 dependency
+
+ -- Manner Robert <robert.manner@blumsoft.eu>  Wed, 02 Dec 2009 15:12:00 +0100
+
+duicontrolpanel-languageapplet (0.5.7) unstable; urgency=low
+
+  * tag 0.5.7
+
+ -- Manner Robert <robert.manner@blumsoft.eu>  Wed, 02 Dec 2009 13:01:38 +0100
+
+duicontrolpanel-languageapplet (0.5.6) unstable; urgency=low
+
+  * retag
+
+ -- Manner Robert <robert.manner@blumsoft.eu>  Thu, 26 Nov 2009 17:42:52 +0100
+
+duicontrolpanel-languageapplet (0.4.5) unstable; urgency=low
+
+  * tag 0.4.5
+
+ -- László Gál <laszlo.gal@blumsoft.eu>  Thu, 19 Nov 2009 14:40:00 +0100
+
+duicontrolpanel-languageapplet (0.4.4) unstable; urgency=low
+
+  * tag 0.4.4
+
+ -- Laszlo Gal <laszlo.gal@blumsoft.eu>  Mon, 09 Nov 2009 16:55:15 +0100
+
+duicontrolpanel-languageapplet (0.4.3) unstable; urgency=low
+
+  * removing shlib depends
+
+ -- Laszlo Gal <laszlo.gal@blumsoft.eu>  Thu, 05 Nov 2009 15:27:42 +0100
+
+duicontrolpanel-languageapplet (0.4.2) unstable; urgency=low
+
+  * fixed debian/rules
+
+ -- Laszlo Gal <laszlo.gal@blumsoft.eu>  Fri, 30 Oct 2009 14:17:23 +0100
+
+duicontrolpanel-languageapplet (0.4.1) unstable; urgency=low
+
+  * tag 0.4.1
+
+ -- Laszlo Gal <laszlo.gal@blumsoft.eu>  Fri, 30 Oct 2009 10:45:08 +0100
+
+duicontrolpanel-languageapplet (0.4.0) unstable; urgency=low
+
+  * put Conflicts: into control
+
+ -- Laszlo Gal <laszlo.gal@blumsoft.eu>  Thu, 29 Oct 2009 11:07:51 +0100
+
+duicontrolpanel-languageapplet (0.3.10) unstable; urgency=low
+
+  * new release
+  * Supports on the fly language changing
+  * Removed main page and cut the applet into display/keyboard part
+  * Desktop files for SUW became part of the applet
+  * Dialogs uses DuiDialog instead of deprecated DcpCommonDialog
+
+ -- Laszlo Gal <laszlo.gal@blumsoft.eu>  Mon, 26 Oct 2009 14:13:51 +0100
+
+duicontrolpanel-languageapplet (0.3.9) unstable; urgency=low
+
+  * new release
+  * Fixes: button picture styling changed in dui 0.12
+
+ -- Laszlo Gal <laszlo.gal@blumsoft.eu>  Thu, 15 Oct 2009 18:06:30 +0200
+
+duicontrolpanel-languageapplet (0.3.8) unstable; urgency=low
+
+  * week 41 release
+
+ -- Laszlo Gal <laszlo.gal@blumsoft.eu>  Thu,  8 Oct 2009 15:13:10 +0200
+
+duicontrolpanel-languageapplet (0.3.7) unstable; urgency=low
+
+  * Following dui and duicontrolpanel changes
+
+ -- Laszlo Gal <laszlo.gal@blumsoft.eu>  Wed, 23 Sep 2009 09:45:54 +0200
+
+duicontrolpanel-languageapplet (0.3.6) unstable; urgency=low
+
+  * using dcpconfig.pri
+
+ -- Laszlo Gal <laszlo.gal@blumsoft.eu>  Wed, 16 Sep 2009 07:48:51 +0200
+
+duicontrolpanel-languageapplet (0.3.5) unstable; urgency=low
+
+  * using dcpconfig.pri and CONFIG += duicontrolpanel
+
+ -- Laszlo Gal <laszlo.gal@blumsoft.eu>  Tue, 15 Sep 2009 18:17:58 +0200
+
+duicontrolpanel-languageapplet (0.3.4) unstable; urgency=low
+
+  * tag 0.3.4
+
+ -- Laszlo Gal <laszlo.gal@blumsoft.eu>  Fri,  4 Sep 2009 16:01:03 +0200
+
+duicontrolpanel-languageapplet (0.3.3) unstable; urgency=low
+
+  * Tag for 0.3.3
+
+ -- Laszlo Gal <laszlo.gal@blumsoft.eu>  Tue, 25 Aug 2009 16:55:37 +0200
+
+duicontrolpanel-languageapplet (0.2.3) unstable; urgency=low
+
+  * tag 0.2.3 for libdui 0.7.5
+
+ -- Laszlo Gal <laszlo.gal@blumsoft.eu>  Tue,  9 Jun 2009 16:34:31 +0200
+

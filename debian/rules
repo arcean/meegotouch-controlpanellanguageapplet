@@ -1,0 +1,81 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+CXXFLAGS += -Wall -g
+ARCH = $(shell dpkg --print-architecture)
+
+QMAKE_ARG += CONFIG+=markuntranslated CONFIG+=harmattan
+
+ifneq (,$(findstring noopt,$(DEB_BUILD_OPTIONS)))
+    CXXFLAGS += -O0
+else
+    CXXFLAGS += -O2
+endif
+QMAKE_ARG += QMAKE_CXXFLAGS="$(CXXFLAGS)"
+
+ifneq (,$(filter perfmeasurement,$(DEB_BUILD_OPTIONS)))
+    QMAKE_ARG += CONFIG+=perf_measurement
+endif
+
+# Define PUBLIC_RELEASE if changelog is not contains ~ in version number
+CXXFLAGS += `head -n 1 debian/changelog | grep -v '~' > /dev/null && echo -DPUBLIC_RELEASE`
+
+comma :=,
+empty :=
+space := $(empty) $(empty)
+
+TMP_BUILD_OPTS = $(subst $(comma),$(space),$(DEB_BUILD_OPTIONS))
+ifneq (,$(filter parallel=%,$(TMP_BUILD_OPTS)))
+    NUMJOBS = $(patsubst parallel=%,%,$(filter parallel=%,$(TMP_BUILD_OPTS)))
+    PARALLEL_MAKEFLAGS += -j$(NUMJOBS)
+endif
+
+configure: configure-stamp
+configure-stamp:
+	dh_testdir
+	touch $@
+
+build: build-stamp
+build-stamp: configure
+	dh_testdir
+	qmake $(QMAKE_ARG)
+	$(MAKE) $(PARALLEL_MAKEFLAGS)
+	touch $@
+
+clean:
+	dh_testdir
+	dh_testroot
+	rm -f build-stamp configure-stamp
+	qmake
+	$(MAKE) -j5 distclean
+	dh_clean 
+
+install: build
+	dh_testdir
+	dh_testroot
+	dh_clean -k 
+	dh_installdirs
+	INSTALL_ROOT=$(CURDIR)/debian/tmp $(MAKE) install
+
+binary-indep: build install
+# We have nothing to do by default.
+
+# Build architecture-dependent files here.
+binary-arch: build install
+	dh_testdir
+	dh_testroot
+	dh_installchangelogs 
+	dh_install --sourcedir=debian/tmp
+	dh_link
+	dh_strip -pduicontrolpanel-displaylanguageapplet --dbg-package=duicontrolpanel-displaylanguageapplet-dbg
+	dh_compress
+	dh_fixperms
+	dh_makeshlibs
+	dh_installdeb
+	dh_shlibdeps 
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+	aegis-deb-add -control debian/duicontrolpanel-displaylanguageapplet/DEBIAN/control .. debian/duicontrolpanel-displaylanguageapplet.aegis=_aegis
+
+binary: binary-indep binary-arch
+.PHONY: build clean binary-indep binary-arch binary install configure

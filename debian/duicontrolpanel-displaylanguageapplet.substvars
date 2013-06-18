@@ -1,0 +1,2 @@
+shlibs:Depends=libc6 (>= 2.4), libduicontrolpanel, libgcc1 (>= 1:4.1.1), libmeegotouchcore0, libqmsystem2, libqtcore4 (>= 4.7.4~git20120327), libqtgui4 (>= 4.7.4~git20120327), libstdc++6 (>= 4.4.0)
+misc:Depends=

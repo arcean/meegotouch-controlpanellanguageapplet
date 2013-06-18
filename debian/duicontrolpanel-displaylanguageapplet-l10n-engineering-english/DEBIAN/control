@@ -1,0 +1,11 @@
+Package: duicontrolpanel-displaylanguageapplet-l10n-engineering-english
+Source: duicontrolpanel-languageapplet
+Version: 0.11.3+0m7
+Architecture: armel
+Maintainer: Viktor Nagy <viktor.nagy@blumsoft.eu>
+Installed-Size: 44
+Enhances: duicontrolpanel-displaylanguageapplet
+Section: devel
+Priority: extra
+Description: Engineering English translations for the display language applet
+Aegis-Manifest: empty

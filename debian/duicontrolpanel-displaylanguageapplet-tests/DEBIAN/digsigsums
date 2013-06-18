@@ -1,0 +1,8 @@
+S 15 com.nokia.maemo H 40 4ac908cb22389f545027b7ddf38506962f966f74 R 68 usr/lib/duicontrolpanel-displaylanguageapplet-tests/ut_displaywidget
+S 15 com.nokia.maemo H 40 62fb5959eb0b9a172edfc82ee292a2cf17c46308 R 70 usr/lib/duicontrolpanel-displaylanguageapplet-tests/ut_displaylangitem
+S 15 com.nokia.maemo H 40 a9aeb12a563b06d2db6fa4523dce1dbe9ae8a401 R 73 usr/lib/duicontrolpanel-displaylanguageapplet-tests/ut_dcpdisplaylangconf
+S 15 com.nokia.maemo H 40 ad876a59e051fceafda33481366d6b2e98922983 R 72 usr/lib/duicontrolpanel-displaylanguageapplet-tests/ut_displaylangapplet
+S 15 com.nokia.maemo H 40 0d70c94d1040b4301dee5af6f7d3ce77d880059d R 68 usr/lib/duicontrolpanel-displaylanguageapplet-tests/ut_languagemodel
+S 15 com.nokia.maemo H 40 2a39d9e93886d4eb3f8b8f3d18822f6fc7f75418 R 71 usr/lib/duicontrolpanel-displaylanguageapplet-tests/ut_displaylangbrief
+S 15 com.nokia.maemo H 40 3058cf41f51311d145740979e9807449f7769f50 R 68 usr/lib/duicontrolpanel-displaylanguageapplet-tests/ut_systemcontrol
+S 15 com.nokia.maemo H 40 326f1955e4fc8a24f1a164290dbfd6c33feb1605 R 71 usr/lib/duicontrolpanel-displaylanguageapplet-tests/ut_regionconfreader

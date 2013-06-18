@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testdefinition version="0.1">
+<suite name="duicontrolpanel-displaylanguageapplet-tests">
+    <set name="unit_tests" description="Unit Tests">
+	<case name="ut_dcpdisplaylangconf" description="ut_dcpdisplaylangconf" requirement="" timeout="60">
+		<step expected_result="0">/usr/lib/duicontrolpanel-displaylanguageapplet-tests/ut_dcpdisplaylangconf</step>
+		</case>
+		<case name="ut_displaylangapplet" description="ut_displaylangapplet" requirement="" timeout="60">
+		<step expected_result="0">/usr/lib/duicontrolpanel-displaylanguageapplet-tests/ut_displaylangapplet</step>
+		</case>
+		<case name="ut_displaylangbrief" description="ut_displaylangbrief" requirement="" timeout="60">
+		<step expected_result="0">/usr/lib/duicontrolpanel-displaylanguageapplet-tests/ut_displaylangbrief</step>
+		</case>
+		<case name="ut_displaylangitem" description="ut_displaylangitem" requirement="" timeout="60">
+		<step expected_result="0">/usr/lib/duicontrolpanel-displaylanguageapplet-tests/ut_displaylangitem</step>
+		</case>
+		<case name="ut_displaywidget" description="ut_displaywidget" requirement="" timeout="60">
+		<step expected_result="0">/usr/lib/duicontrolpanel-displaylanguageapplet-tests/ut_displaywidget</step>
+		</case>
+		<case name="ut_languagemodel" description="ut_languagemodel" requirement="" timeout="60">
+		<step expected_result="0">/usr/lib/duicontrolpanel-displaylanguageapplet-tests/ut_languagemodel</step>
+		</case>
+		<case name="ut_regionconfreader" description="ut_regionconfreader" requirement="" timeout="60">
+		<step expected_result="0">/usr/lib/duicontrolpanel-displaylanguageapplet-tests/ut_regionconfreader</step>
+		</case>
+		<case name="ut_systemcontrol" description="ut_systemcontrol" requirement="" timeout="60">
+		<step expected_result="0">/usr/lib/duicontrolpanel-displaylanguageapplet-tests/ut_systemcontrol</step>
+		</case>
+		
+
+	<environments>
+	<scratchbox>false</scratchbox>
+	<hardware>true</hardware>    
+	</environments> 
+
+	</set>
+  </suite>
+</testdefinition>

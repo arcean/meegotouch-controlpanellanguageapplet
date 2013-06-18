@@ -1,0 +1,12 @@
+Package: duicontrolpanel-displaylanguageapplet-dbg
+Source: duicontrolpanel-languageapplet
+Version: 0.11.3+0m7
+Architecture: armel
+Maintainer: Viktor Nagy <viktor.nagy@blumsoft.eu>
+Installed-Size: 1724
+Depends: duicontrolpanel-displaylanguageapplet (= 0.11.3+0m7)
+Conflicts: duicontrolpanel-languageapplet-dbg
+Section: devel
+Priority: extra
+Description: Display Language applet for the control panel application, debuggin symbols
+Aegis-Manifest: empty

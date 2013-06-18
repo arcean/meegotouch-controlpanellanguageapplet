@@ -1,0 +1,12 @@
+Package: duicontrolpanel-displaylanguageapplet
+Source: duicontrolpanel-languageapplet
+Version: 0.11.3+0m7
+Architecture: armel
+Maintainer: Viktor Nagy <viktor.nagy@blumsoft.eu>
+Installed-Size: 240
+Depends: duicontrolpanel (>= 0.5.9), libduicontrolpanel (>= 0.7.11), duicontrolpanel-displaylanguageapplet-l10n-engineering-english (= 0.11.3+0m7)
+Conflicts: duicontrolpanel-languageapplet
+Section: x11
+Priority: extra
+Description: Language applet for the control panel application
+Aegis-Manifest: included
